@@ -1,0 +1,23 @@
+html{
+  font-family: 'Jua', sans-serif;
+  background-image: url(sky.png);
+  text-align: center;
+}
+
+img{
+  height: 300px;
+}
+
+.game{
+  text-align: center;
+  width: 370px;
+  padding: 30px;
+}
+
+.grid{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: auto;
+}

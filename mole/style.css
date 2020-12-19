@@ -1,0 +1,18 @@
+.square{
+  width: 200px;
+  height: 200px;
+  border: mediumpurple 1px solid;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 808px;
+  height: 808px;
+  border: mediumpurple 1px solid;
+}
+
+.mole{
+  background-image: url(cooky.png);
+  background-size: cover;
+}

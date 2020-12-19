@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.game{
+  width: 1280px;
+  height: 853px;
+  border: 2px solid green;
+  position: relative;
+  background-image: url(jungle.jpg);
+}
+
+#me{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 703px;
+  left: 50px;
+}
+
+.animate{
+  animation: meJump 0.5s;
+}
+
+@keyframes meJump {
+  0% {top: 700px;}
+  30%{top: 500px;}
+  70%{top: 500px;}
+  100%{top: 700px;}
+}
+
+#dino{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 723px;
+  left: 1150px;
+  animation: dinoComes 1.5s infinite;
+  z-index: 1;
+}
+
+@keyframes dinoComes {
+  0% {left: 1100px;}
+  100%{left: -100px;}
+}
