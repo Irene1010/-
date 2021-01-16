@@ -10,14 +10,24 @@ img{
 
 .game{
   text-align: center;
-  width: 370px;
-  padding: 30px;
+  width: 350px;
+  padding: 25px;
 }
 
-.grid{
+.grid1{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 1300px;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.grid2{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1600px;
   margin: auto;
 }
